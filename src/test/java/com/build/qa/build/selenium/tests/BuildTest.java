@@ -48,6 +48,7 @@ public class BuildTest extends BaseFramework {
 		h.searchbox.sendKeys("Quoizel MY1613"+ Keys.ENTER);
 		String title = h.title.getText();
 		Assert.assertEquals("Quoizel MY1613",title);
+		System.out.println("hello from local");
 		//there is aptha on this website i cannot go forward it is not letting me go forward and we cannot automate captcha
 }
 
